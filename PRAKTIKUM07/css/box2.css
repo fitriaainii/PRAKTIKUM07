@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    background-color: rgb(255, 255, 199);
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.container img{
+    width: 200px;
+}

@@ -1,0 +1,47 @@
+.kotak-bawah {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+/* Atur Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* Baris 1 */
+/* Anak 1 Baris 1 */
+.container .kotak:nth-child(1){
+    background-color: yellow;
+    width: 20%;
+}
+/* Anak 2 Baris 1 */
+.container .kotak:nth-child(2){
+    width: 79%;
+    background-color: orange;
+}
+.kotak {
+    height: 100px;
+}
+
+/* Baris 2 */
+/* Anak 1 Baris 2 */
+.container .isi:nth-child(1){
+    background-color: rgb(9, 255, 0);
+    width: 20%;
+}
+/* Anak 2 Baris 2 */
+.container .isi:nth-child(2){
+    background-color: grey;
+    width: 59%;
+}
+/* Anak 3 Baris 2 */
+.container .isi:nth-child(3){
+    background-color: aqua;
+    width: 20%;
+}
+.isi {
+    height: 400px;
+}
